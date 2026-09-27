@@ -1,7 +1,7 @@
 {
     "name": "Tic Tac Toe Game by UwU Apps",
-    "short_name": "Tic Tac Toe Game",
-    "description": "A simple tictactoe app; view live tictactoe at a glance!",
+    "short_name": "Tic Tac Toe",
+    "description": "Tic tac toe on 3×3, or four in a row on 4×4 and 5×5. Play the computer from Beginner to Master, a friend on this device or on the same wifi, then watch and share the instant replay and climb the leaderboard. Works offline.",
     "icons": [{
             "src": "XOX-192.png",
             "type": "image/png",
@@ -27,8 +27,8 @@
         }
     ],
     "start_url": "/",
-    "theme_color": "#cfc",
-    "background_color": "#cfc",
+    "theme_color": "#ccffcc",
+    "background_color": "#ccffcc",
     "display": "standalone",
     "display_override": ["fullscreen", "minimal-ui", "window-controls-overlay"],
     "orientation": "any",
@@ -37,8 +37,7 @@
     "scope": "/",
     "lang": "en",
     "categories": [
-        "entertainment",
-        "lifestyle",
-        "utilities"
+        "games",
+        "entertainment"
     ]
 }

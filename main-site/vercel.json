@@ -6,5 +6,21 @@
     "rewrites": [{
         "source": "/",
         "destination": "/"
+    }],
+    "functions": {
+        "api/game/submit.js": {
+            "maxDuration": 60,
+            "includeFiles": "js/{rules,record,seed,score,ai}.js"
+        },
+        "api/game/finish.js": {
+            "includeFiles": "js/{rules,record,seed,score,ai}.js"
+        },
+        "api/game/start.js": {
+            "includeFiles": "js/{rules,seed}.js"
+        }
+    },
+    "headers": [{
+        "source": "/sw.js",
+        "headers": [{ "key": "Cache-Control", "value": "no-cache" }]
     }]
 }
