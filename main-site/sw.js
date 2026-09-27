@@ -1,12 +1,12 @@
-const CACHE = "template-offline-v1";
+const CACHE = "tictactoe-v1";
 
 const ASSETS = [
   "/",
   "/index.html",
   "/style.css",
   "/script.js",
-  "/templateicon1-192.png",
-  "/templateicon1-512.png",
+  "/XOX-192.png",
+  "/XOX-512.png",
   "/favicon.ico",
   "/manifest.json"
 ];
