@@ -23,7 +23,7 @@ import { confetti } from "./confetti.js";
 const GAME_STORAGE = "oxogame.game";
 const SETUP_STORAGE = "oxogame.setup";
 const SIDE_LETTER = ["x", "o"];
-const IN_A_ROW = { 3: "three", 4: "four", 5: "four" };
+const IN_A_ROW = { 3: "three", 4: "four", 5: "five" };
 // How long to wait for the server to pick a seed before starting offline.
 const START_WAIT_MS = 5000;
 
@@ -66,7 +66,7 @@ const PLAY_NOTES = {
 
 function sizeNote(size) {
   if (size === 3) return "The classic game: three in a row wins.";
-  return `Four in a row wins, on ${size * size} cells. Scores ${size === 4 ? "a quarter" : "half"} as much again.`;
+  return `${size === 4 ? "Four" : "Five"} in a row wins, on ${size * size} cells. Scores ${size === 4 ? "a quarter" : "half"} as much again.`;
 }
 
 function renderSetup() {

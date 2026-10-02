@@ -1,6 +1,6 @@
 # Tic Tac Toe
 
-Tic tac toe on 3×3, and four in a row on 4×4 and 5×5, against a computer
+Tic tac toe on 3×3, four in a row on 4×4 and five on 5×5, against a computer
 from Beginner to Master, between two people on one device, or between two
 devices on the same network. Every game has a seed that can be copied and
 played again, ends with an instant replay that can be shared as a link, and

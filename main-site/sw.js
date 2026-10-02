@@ -36,7 +36,7 @@
 // 5. The computer's Web Worker (js/ai-worker.js) is precached like any other
 //    module, so the computer plays offline.
 
-const VERSION = "oxogame-v1";
+const VERSION = "oxogame-v2";
 
 const SHELL = `oxogame-shell-${VERSION}`;
 

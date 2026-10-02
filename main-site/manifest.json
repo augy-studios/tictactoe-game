@@ -1,7 +1,7 @@
 {
     "name": "Tic Tac Toe Game by UwU Apps",
     "short_name": "Tic Tac Toe",
-    "description": "Tic tac toe on 3×3, or four in a row on 4×4 and 5×5. Play the computer from Beginner to Master, a friend on this device or on the same wifi, then watch and share the instant replay and climb the leaderboard. Works offline.",
+    "description": "Tic tac toe on 3×3, four in a row on 4×4, or five on 5×5. Play the computer from Beginner to Master, a friend on this device or on the same wifi, then watch and share the instant replay and climb the leaderboard. Works offline.",
     "icons": [{
             "src": "XOX-192.png",
             "type": "image/png",

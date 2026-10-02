@@ -1,5 +1,5 @@
 // The rules. A square board of 3, 4 or 5, X and O taking turns with X first,
-// and a straight line of marks wins: three on 3x3, four on 4x4 and 5x5.
+// and a straight line of marks wins: three on 3x3, four on 4x4, five on 5x5.
 // Pure, with no DOM, so the API checks games with this same file.
 
 export const X = 0;
@@ -10,7 +10,7 @@ export const SIDE_NAME = ["X", "O"];
 export const SIZES = [3, 4, 5];
 
 // Marks in a row to win, by board size.
-export const WIN_LENGTH = { 3: 3, 4: 4, 5: 4 };
+export const WIN_LENGTH = { 3: 3, 4: 4, 5: 5 };
 
 // X moves on even plies, O on odd ones, whoever is playing which.
 export const sideOf = (ply) => ply % 2;

@@ -40,8 +40,8 @@ the browser and the server always agree on a game.
 
 ## The game
 
-**Boards.** 3×3, three in a row wins. 4×4 and 5×5, four in a row wins. X
-always moves first.
+**Boards.** 3×3, three in a row wins. 4×4, four in a row. 5×5, five in a
+row. X always moves first.
 
 **Modes.** Against the computer; two people taking turns on this device; or
 two devices on one network, one hosting with a six character code, a link or
